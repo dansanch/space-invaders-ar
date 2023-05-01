@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function animateBullets() {
-    bullets.forEach((bullet, index) => {
+     bullets.forEach((bullet, index) => {
       let position = bullet.getAttribute("position");
       position.z -= 0.1;
 
